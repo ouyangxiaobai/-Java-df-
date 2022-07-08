@@ -1,0 +1,128 @@
+body {
+	background-color: #FFFFFF;
+	font-size: 12px;
+	line-height: 16px;
+} 
+A:link {
+    color: #2f2f2f;
+	text-decoration: none;
+}
+A:visited {
+    color: #2f2f2f;
+	text-decoration: none;
+}
+A:hover { 
+	color: #FF6600;
+	text-decoration: none;
+}
+td {
+	font-size: 12px;
+	color: #2f2f2f;
+	line-height: 16px;
+}
+
+td.SystemLeft {
+	font-size: 12px;
+	color: #0f42a6;
+	font-weight:bold;
+}
+td.SystemLeft A:link {
+    color: #003EBD;
+	text-decoration: none;
+}
+td.SystemLeft A:visited {
+    color: #003EBD;
+	text-decoration: none;
+}
+td.SystemLeft A:hover { 
+	color: #ffffff;
+	text-decoration: none;
+}
+textarea.ConstSet {
+	background-color: #F8FAFC;
+	border: 1px solid #8DB5E9;
+	border-top: #8DB5E9 1px ridge; 
+	border-left: #8DB5E9 1px ridge; 
+    color: #333333;
+	scrollbar-3dlight-color:#DAE4EF;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-darkshadow-color:#DAE4EF;
+	scrollbar-face-color:#DAE4EF;
+	scrollbar-highlight-color:#DAE4EF;
+	scrollbar-shadow-color:#DAE4EF;
+	scrollbar-track-color:#F8FAFC;
+}
+.button { 
+	border-left: #ffffff 1px ridge; 
+	border-right: #333333 1px ridge; 
+	border-top: #ffffff 1px ridge; 
+	border-bottom: #1c1c1c 1px ridge; 
+	font-size: 12px;
+    color: #1c1c1c; 
+	background-color: #EBF2F9; 
+	cursor: hand; 
+}
+.textfield{
+	border-top-width:1px;
+	border-bottom-width:2px;
+	border-left-width:1px;
+	border-right-width:2px;
+	font-size: 12px;
+	color: #2f2f2f;
+}
+
+
+.SortFolderOpen {
+	/*background-image: url(../admin/Images/Sort_Folder_Close.gif);*/
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortFolderClose {
+	/* background-image: url(../admin/Images/Sort_Folder_Open.gif);*/
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderOpen {
+	/* background-image: url(../admin/Images/SortEnd_Folder_Close.gif);*/
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderClose {
+	/* background-image: url(../admin/Images/SortEnd_Folder_Open.gif);*/
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortListline {
+	padding-left: 16px;
+	/* background-image: url(../admin/Images/Sort_Listline.gif);*/
+	background-repeat: repeat-y;
+}
+.SortEndListline {
+	padding-left: 16px;
+}
+.SortFile {
+	/* background-image: url(../admin/Images/Sort_File.gif);*/
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
+.SortFileEnd {
+	/* background-image: url(../admin/Images/Sort_File_End.gif);*/
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
